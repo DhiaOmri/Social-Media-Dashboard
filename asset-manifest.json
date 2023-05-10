@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b870f7c4.css",
-    "main.js": "/react-gh-pages/static/js/main.aa51e795.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.b870f7c4.css.map": "/react-gh-pages/static/css/main.b870f7c4.css.map",
-    "main.aa51e795.js.map": "/react-gh-pages/static/js/main.aa51e795.js.map"
+    "main.css": "/Social-Media-Dashboard/static/css/main.b870f7c4.css",
+    "main.js": "/Social-Media-Dashboard/static/js/main.aa51e795.js",
+    "index.html": "/Social-Media-Dashboard/index.html",
+    "main.b870f7c4.css.map": "/Social-Media-Dashboard/static/css/main.b870f7c4.css.map",
+    "main.aa51e795.js.map": "/Social-Media-Dashboard/static/js/main.aa51e795.js.map"
   },
   "entrypoints": [
     "static/css/main.b870f7c4.css",
