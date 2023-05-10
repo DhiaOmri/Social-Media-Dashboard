@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header";
+import CardList from "./components/cardlist";
+import CardList2 from "./components/cardlist2";
+import { Grid, Typography } from "@mui/material";
+
+import "./style/style.scss";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <Header />
+      <Grid sx={{ maxWidth: "1400px", margin: "50px auto" }}>
+        <section>
+          <CardList></CardList>
+        </section>
+        <section>
+          <CardList2></CardList2>
+        </section>
+      </Grid>
+      <Typography
+        textAlign={"center"}
+        fontSize={11}
+        color={"var(--text-color)"}
+      >
+        Challenge by
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          color={"var(--text-color2)"}
+          href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          Frontend Mentor
         </a>
-      </header>
+        . Coded by <a href="#">Your Name Here</a>.
+      </Typography>
     </div>
   );
 }
