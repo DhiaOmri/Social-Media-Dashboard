@@ -16,7 +16,7 @@ This is a solution to the [Social media dashboard with theme switcher](https://w
 
 ### Screenshot
 
-![](./social-media-dashboard.jpg)
+![](./desktop-preview.jpg)
 
 ### Links
 
